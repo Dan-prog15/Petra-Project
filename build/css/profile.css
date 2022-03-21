@@ -1,0 +1,84 @@
+
+#header
+    .line{
+        background-attachment: fixed;
+        position: relative;
+        right: 10px;
+        bottom: 60px;
+        z-index: 0;
+    }
+    .logo{
+        position: relative;
+        bottom: 135px;
+        z-index: 1;
+    }
+    .profile_icon{
+        position: relative;
+        background: white; 
+        margin: 0px;
+        padding: 0px; 
+        color: rgb(255, 255, 255); 
+        border: 0px; 
+        cursor: pointer; 
+        z-index: 1;
+    }
+    .prof_icon_butt{
+        position: absolute;
+        right: 0.1%;
+        bottom: 126px;
+        background: white; 
+        margin: 10px;
+        padding: 5px; 
+        font-size: 13px; 
+        font-weight: bold; 
+        color: Black; 
+        text-align: center; 
+        border: 0px; 
+        cursor: pointer; 
+        z-index: 1;
+    }
+    .sms{
+        position: relative;
+        background: white; 
+        margin: 0px;
+        padding: 0px; 
+        color: rgb(255, 255, 255); 
+        border: 0px; 
+        cursor: pointer; 
+        z-index: 1;
+    }
+    .messages{
+        position: relative;
+        left: 95%;
+        right: 5%;
+        top: 0.1%;
+        bottom: 182px;
+    }
+    .smsbutt{
+        position: fixed;
+        background: white; 
+        margin: 10px;
+        padding: 5px; 
+        font-size: 13px; 
+        font-weight: bold; 
+        color: Black; 
+        text-align: center; 
+        border: 0px; 
+        cursor: pointer;
+        z-index: 1;
+    }
+#etra
+    .etra{
+        position: relative;
+        z-index: 100;
+        left: 40px;
+        bottom: 5px;
+        font-family: "SF Pro";
+    }
+
+@font-face {
+    font-family: "SF Pro";
+    src: url(/src/fonts/SFPRODISPLAYREGULAR.OTF) format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
