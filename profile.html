@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="SHORTCUT ICON" href="/icon.PNG" type="image/x-icon">
     <link href="build\css\profile.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +16,7 @@
 <body>
     <div id="header"> <!-- Логотип -->
         <div class="line">
-            <img src="/build/img/line.JPG" width="100.9%" height="80" alt="">
+
         </div>
         <div class="logo">
             <a href="/index.html">
@@ -32,15 +33,26 @@
            </div>
     </div>
     <div id="profile">
-        <div class="profile_photo">
-            <img src="photo" alt=""> <!--Фото профиля(картинка)-->
+        <div class="rectangle">
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="rectangle2"></div> <!-- Для поиска -->
+            <div class="post">
+                     <input type="text" size="40" class="post_inp" placeholder="Что нового?">
+            </div>
+            <div class="profile_photo">
+                <img src="/build/img/mark.jpg" class="photo_img" alt="" width="270" height="270"> <!--Фото профиля(картинка)-->
+            </div>   
+            <div class="profile_name">
+                <h2>Марк Цукенберг</h2> <!-- Имя из базы данных -->
+            </div>
+            <div>
+                <button class="pin_butt">
+                    <img src="/build/img/pin.png" alt="" class="pin">
+                </button>
+            </div>
         </div>
-        <div class="profile_name">
-            <h2>Name Name</h2> <!-- Имя из базы данных -->
-        </div>
-        <div class="quote">
-            <blockquote>quote</blockquote> <!-- Изменяемая цитата -->
-        </div>
+
     </div>
 </body>
 </html>
