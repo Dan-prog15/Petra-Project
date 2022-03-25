@@ -74,9 +74,9 @@
         position: absolute;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
         top: -5px;
-        right: 15%;
-        left: 15%;
-        width: 70%;
+        right: 10%;
+        left: 10%;
+        width: 80%;
         height: 120%;
         background: white;
         z-index: 3;
@@ -178,6 +178,62 @@
     .pin:hover{
         -webkit-transform: rotate(18deg);
         transform: rotate(18deg);
+    }
+    .from_galery{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 25px;
+        top: 341px;
+        background: white; 
+        margin: 10px;
+        padding: 5px; 
+        font-size: 13px; 
+        font-weight: bold; 
+        color: Black; 
+        text-align: center; 
+        border: 0px; 
+        cursor: pointer; 
+        opacity: 45%;
+        transition: 1s;
+    }
+    .from_galery:hover{
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg);
+    }
+    .quote{
+        position: absolute;
+        width: 450px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.062);
+        top: 130px;
+        left: 320px;
+        z-index: 6;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .quote_text{
+        position: relative;
+        left: -20px;
+        top: 0px;
+        font-family: SF Pro;
+    }
+    .online{
+        position: absolute;
+        top: 80px;
+        right: 30px;
+        opacity: 60%;
+        font-size: small;
+        font-family: SF Pro;
+    }
+    .new_post{
+        position: absolute;
+        top: 342px;
+        left: 20px;
+        font-family: SF Pro;
+        font-size: 15px;
+        opacity: 40%;
     }
     input {outline:none;}
 @font-face {
