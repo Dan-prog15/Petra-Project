@@ -96,7 +96,7 @@
     }
     .profile_name{
         position: absolute;
-        top: 60px;
+        top: 46px;
         left: 320px;
         font-family: "SF Pro";
         z-index: 10;
@@ -123,13 +123,14 @@
     .post{
         position: absolute;
         top: 355px;
-        right: 100px;
+        right: 20px;
         background-color: transparent;
         z-index: 6;
     }
     .post_inp{
         border-color: rgb(255, 255, 255);
         border: 0;
+        right: 400px;
         background-color: transparent;
         z-index: 6;
     }
@@ -206,7 +207,7 @@
         width: 450px;
         height: 90px;
         background: rgba(0, 0, 0, 0.062);
-        top: 130px;
+        top: 110px;
         left: 320px;
         z-index: 6;
         border-top-left-radius: 0px;
@@ -216,12 +217,12 @@
     .quote_text{
         position: relative;
         left: -20px;
-        top: 0px;
+        top: -5px;
         font-family: SF Pro;
     }
     .online{
         position: absolute;
-        top: 80px;
+        top: 60px;
         right: 30px;
         opacity: 60%;
         font-size: small;
@@ -235,7 +236,84 @@
         font-size: 15px;
         opacity: 40%;
     }
+    .photo_prof{
+        position: relative;
+        z-index: 8;
+        top: 200px;
+        left: 444px;
+        font-family: SF Pro;
+        font-size: 14px;
+        opacity: 40%;
+        width: 100px;
+    }
+    .mark1{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        left: 440px;
+        top: 195px;
+        border-radius: 15px;
+        z-index: 20;
+        transition: 0.2s;
+
+    }
+    .mark1:hover{
+        scale: 1.05;
+    }
+    .mark2{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        top: 195px;
+        left: 450px;
+        border-radius: 15px;
+        z-index: 20;
+        transition: 0.2s;
+    }
+    .mark2:hover{
+        scale: 1.05;
+    }
+    .mark3{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        z-index: 20;
+        top: 195px;
+        left: 460px;
+        border-radius: 15px;
+        transition: 0.2s;
+    }
+    .mark3:hover{
+        scale: 1.05;
+    }
+    .mark4{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        z-index: 20;
+        top: 195px;
+        left: 470px;
+        border-radius: 15px;
+        transition: 0.2s;
+    } 
+    .mark4:hover{
+        scale: 1.05;
+    }       
+    .mark5{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        z-index: 20;
+        top: 195px;
+        left: 480px;
+        border-radius: 15px;
+        transition: 0.2s;
+    }
+    .mark5:hover{
+        scale: 1.05;
+    }
     input {outline:none;}
+    pre {white-space: normal;}
 @font-face {
     font-family: "SF Pro";
     src: url(/src/fonts/SF-UI-Text-Light.ttf) format("truetype");
