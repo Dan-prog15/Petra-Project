@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/src/js/jquery-3.6.0.min.js"></script>
+    
     <title>Petra</title>
 <div id="etra"> <!-- Заголовок -->
     <a href="/index.html">
@@ -14,6 +16,7 @@
 </div>
 </head>
 <body>
+    <script src="/src/js/size.js"></script>
     <div id="header"> <!-- Логотип -->
         <div class="line">
 
@@ -41,7 +44,7 @@
             <div class="line3"></div>
             <div class="rectangle2"></div> <!-- Для поиска -->
             <div class="post">
-                     <input type="text" size="40" class="post_inp" placeholder="Что нового?">
+                     <input type="text" size="32" class="post_inp" placeholder="Что нового?">
             </div>
             <div class="profile_photo">
                 <img src="/build/img/mark.jpg" class="photo_img" alt="" width="270" height="270"> <!--Фото профиля(картинка)-->
@@ -67,23 +70,35 @@
             <div class="online">
                 <p>Был в сети недавно</p>
             </div>
+            <div class="post_template">
+                <img class="post_photo" src="/build/img/Mark/063_1185337762_d_850.jpg" alt="">
+                <img src="/build/img/mark.jpg" class="photo_profile" alt="">
+                <p class="post_profile_name"><a href="/profile.html">
+                    Марк Цукенберг
+                </a> </p>
+            </div>
             <div class="new_post">
                 <p>Новый пост:</p>
             </div>
-        </div>
-        <div class="photo_prof">
-            <p>
-                Другие фото:
-            </p>
-        </div>
-        <div>
-            <img src="/build/img/Mark/180px-Mark_Zuckerberg,_World_Economic_Forum_2009_Annual_Meeting.jpg" alt="" class="mark1">
-            <img src="/build/img/Mark/2014-05-12T012327Z_1867323988_GF2EA5B1UI001_RTRMADP_3_FACEBOOK-pic668-668x444-17475.jpg" alt="" class="mark2">
-            <img src="/build/img/Mark/267px-Mark_Zuckerberg_em_setembro_de_2014.jpg" alt="" class="mark3">
-            <img src="/build/img/Mark/Mark_Zuckerberg_F8_2019_Keynote_(32830578717)_(cropped).jpg" alt="" class="mark4">
-            <img src="/build/img/Mark/uzn_15889257899.jpg" alt="" class="mark5">
+            <div id="post">
+                <div class="rect_post"></div>
+                <p class="all_posts">Все посты:</p>
+            </div>
+            <div class="photo_prof">
+                <p>
+                    Другие фото:
+                </p>
+            </div>
+            <div>
+                <img src="/build/img/Mark/180px-Mark_Zuckerberg,_World_Economic_Forum_2009_Annual_Meeting.jpg" alt="" class="mark1">
+                <img src="/build/img/Mark/2014-05-12T012327Z_1867323988_GF2EA5B1UI001_RTRMADP_3_FACEBOOK-pic668-668x444-17475.jpg" alt="" class="mark2">
+                <img src="/build/img/Mark/267px-Mark_Zuckerberg_em_setembro_de_2014.jpg" alt="" class="mark3">
+                <img src="/build/img/Mark/Mark_Zuckerberg_F8_2019_Keynote_(32830578717)_(cropped).jpg" alt="" class="mark4">
+                <img src="/build/img/Mark/uzn_15889257899.jpg" alt="" class="mark5">
+            </div>
         </div>
 
     </div>
+
 </body>
 </html>
